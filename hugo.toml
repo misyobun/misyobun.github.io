@@ -2,7 +2,7 @@ baseURL = 'https://misyobun.github.io'
 publishDir = "docs"
 languageCode = "ja"
 title = 'omsb'
-theme = "FixIt"
+theme = "mini"
 url = "/docs"
 
 [author]

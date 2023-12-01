@@ -1,15 +1,19 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>draft - Tag - omsb</title>
+    <title>draft on omsb</title>
     <link>https://misyobun.github.io/tags/draft/</link>
-    <description>draft - Tag - omsb</description>
-    <generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 01 Dec 2023 23:37:37 &#43;0900</lastBuildDate><atom:link href="https://misyobun.github.io/tags/draft/" rel="self" type="application/rss+xml" /><item>
-  <title>First Article</title>
-  <link>https://misyobun.github.io/posts/first-article/</link>
-  <pubDate>Fri, 01 Dec 2023 23:37:37 &#43;0900</pubDate>
-  <author>Author</author>
-  <guid>https://misyobun.github.io/posts/first-article/</guid>
-  <description><![CDATA[<p>Hugoで簡単なブログを作りました。</p>]]></description>
-</item>
-</channel>
+    <description>Recent content in draft on omsb</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 01 Dec 2023 23:37:37 +0900</lastBuildDate>
+    <atom:link href="https://misyobun.github.io/tags/draft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Article</title>
+      <link>https://misyobun.github.io/posts/first-article/</link>
+      <pubDate>Fri, 01 Dec 2023 23:37:37 +0900</pubDate>
+      <guid>https://misyobun.github.io/posts/first-article/</guid>
+      <description>&lt;p&gt;Hugoで簡単なブログを作りました。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
