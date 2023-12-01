@@ -1,3 +1,12 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://misyobun.github.io'
+publishDir = "docs"
+languageCode = "ja"
+title = 'omsb'
+theme = "FixIt"
+url = "/docs"
+
+[author]
+name = "misyobun"
+
+[params.header.title]
+name = "omsb"

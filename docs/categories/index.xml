@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Categories - Category - omsb</title>
+    <link>https://misyobun.github.io/categories/</link>
+    <description>Categories - Category - omsb</description>
+    <generator>Hugo -- gohugo.io</generator><language>ja</language><lastBuildDate>Fri, 01 Dec 2023 23:37:37 &#43;0900</lastBuildDate><atom:link href="https://misyobun.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+  <title>draft</title>
+  <link>https://misyobun.github.io/categories/draft/</link>
+  <pubDate>Fri, 01 Dec 2023 23:37:37 &#43;0900</pubDate>
+  <author>Author</author>
+  <guid>https://misyobun.github.io/categories/draft/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>
