@@ -23,7 +23,7 @@
       <description>&lt;p&gt;Hugoで簡単なブログを作りました。&lt;/p&gt;</description>
     </item>
     <item>
-      <title></title>
+      <title>Domain Driven Design の実装例 (Flutter)</title>
       <link>https://misyobun.github.io/posts/2021/08/ddd-for-flutter/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://misyobun.github.io/posts/2021/08/ddd-for-flutter/</guid>

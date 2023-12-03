@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Domain Driven Design の実装例 (Flutter)"
 tags: ["iOS","android","Flutter"]
 date: "2021-08-15T00:00:00"
 draft: false

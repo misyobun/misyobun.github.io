@@ -9,7 +9,7 @@
     <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://misyobun.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
+      <title>Domain Driven Design の実装例 (Flutter)</title>
       <link>https://misyobun.github.io/posts/2021/08/ddd-for-flutter/</link>
       <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
       <guid>https://misyobun.github.io/posts/2021/08/ddd-for-flutter/</guid>
