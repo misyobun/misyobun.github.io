@@ -8,33 +8,5 @@
     <language>ja</language>
     <lastBuildDate>Fri, 01 Dec 2023 23:37:37 +0900</lastBuildDate>
     <atom:link href="https://misyobun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>draft</title>
-      <link>https://misyobun.github.io/tags/draft/</link>
-      <pubDate>Fri, 01 Dec 2023 23:37:37 +0900</pubDate>
-      <guid>https://misyobun.github.io/tags/draft/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>android</title>
-      <link>https://misyobun.github.io/tags/android/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://misyobun.github.io/tags/android/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Flutter</title>
-      <link>https://misyobun.github.io/tags/flutter/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://misyobun.github.io/tags/flutter/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>iOS</title>
-      <link>https://misyobun.github.io/tags/ios/</link>
-      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://misyobun.github.io/tags/ios/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
