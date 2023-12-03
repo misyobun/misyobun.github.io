@@ -16,7 +16,7 @@ jobs:
         with:
           notion_auth_token: ${{ secrets.NOTION_TOKEN }}
           notion_database_id: ${{ secrets.NOTION_DATABASE_ID }}
-          output_directory_path_template: "./content/posts/{{publish|date.to_string('%Y/%m')}}/"
+          output_directory_path_template: "./content/posts/{{publish|date.to_string('%Y/%m')}}/{{slug}}"
       
       - name: Setup Node
         uses: actions/setup-node@v3
