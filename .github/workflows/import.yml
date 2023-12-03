@@ -1,0 +1,54 @@
+name: import
+
+on:
+  workflow_dispatch:
+
+jobs:
+  import_markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.4.2
+        with:
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
+      - name: Export The Notion Database to local markdown files.
+        id: export
+        uses: yucchiy/notion-to-markdown@v0.3.2
+        with:
+          notion_auth_token: ${{ secrets.NOTION_TOKEN }}
+          notion_database_id: ${{ secrets.NOTION_DATABASE_ID }}
+          output_directory_path_template: "./content/posts/{{publish|date.to_string('%Y/%m')}}/"
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+
+      - name: Build with Hugo
+        env:
+         NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+        run: |
+          npm install
+          npm start
+          hugo
+
+      - name: Commit exported markdown files
+        if: ${{ steps.export.outputs.exported_count != '0' || steps.export_unity_weekly.outputs.exported_count != '0' }}
+        run: |
+          git config --local user.email "misyobun@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ./
+          git commit -m "Import files from notion database"
+      - name: Push markdown files
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.MY_GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
