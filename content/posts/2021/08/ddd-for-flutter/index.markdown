@@ -2,7 +2,7 @@
 title: ""
 tags: ["iOS","android","Flutter"]
 date: "2021-08-15T00:00:00"
-
+draft: false
 ---
 
 今年の上半期は仕事として主に、既存のiOS/AndroidネイティブアプリをFlutterでリニューアルするというプロジェクトに集中して取り組んでいた。 途中まで bloc + freezed で実装していたものを、急遽、 riverpod + freezed + state_notifier に書き直すことになったりしたが、先週頭に無事リニューアルリリースに漕ぎ着けた。 （段階的リリースまで完了）
