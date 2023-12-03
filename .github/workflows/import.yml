@@ -17,6 +17,7 @@ jobs:
           notion_auth_token: ${{ secrets.NOTION_TOKEN }}
           notion_database_id: ${{ secrets.NOTION_DATABASE_ID }}
           output_directory_path_template: "./content/posts/{{publish|date.to_string('%Y/%m')}}/"
+      
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
@@ -36,8 +37,6 @@ jobs:
         env:
          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
         run: |
-          npm install
-          npm start
           hugo
 
       - name: Commit exported markdown files
