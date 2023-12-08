@@ -1,0 +1,12 @@
+baseURL = 'https://misyobun.github.io'
+publishDir = "docs"
+languageCode = "ja"
+title = 'omsb'
+theme = "paper"
+url = "/docs"
+
+[author]
+name = "misyobun"
+
+[params.header.title]
+name = "omsb"
